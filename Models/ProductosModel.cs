@@ -14,5 +14,7 @@ namespace cosmetics.Models
 
         public double Precio { get; set; }
 
+        public CategoriaModel Categoria { get; set; }
+
     }
 }
