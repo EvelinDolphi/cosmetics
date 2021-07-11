@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace cosmetics.Models
 {
@@ -12,5 +13,8 @@ namespace cosmetics.Models
 
         public string Marca { get; set; }
 
+        public ClienteModel Cliente { get; set; }
+
+        public List<ProductosModel> Productos = new List<ProductosModel>();
     }
 }
